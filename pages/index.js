@@ -1,8 +1,18 @@
-import Head from 'next/head'
+import Navbar from 'components/Navbar';
+import ResourceHighlight from 'components/ResourceHighlight';
+import Newsletter from 'components/Newsletter';
+import ResourceList from 'components/ResourceList';
+import Footer from 'components/Footer';
 
 const Home = () => {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Navbar />
+      <ResourceHighlight />
+      <Newsletter />
+      <ResourceList />
+      <Footer />
+    </>
   )
 }
 
